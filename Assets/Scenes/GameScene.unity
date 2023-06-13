@@ -354,7 +354,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2715472}
-  m_LocalRotation: {x: 0.16328421, y: -1.7286761e-15, z: 5.8010205e-16, w: 0.98657906}
+  m_LocalRotation: {x: 0.1632842, y: 0.000000029402349, z: -0.0000000048662487, w: 0.98657906}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3296,6 +3296,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3493d6cd0bd21184ab2868f9da62c8b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!135 &105701885
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105701880}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0.43, z: 0}
 --- !u!1001 &106123992
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21882,8 +21895,8 @@ MonoBehaviour:
   runSpeed: 3.5
   walkSpeed: 2
   jumpSpeed: 10
-  walkStepRange: 0
-  runStepRange: 0
+  walkStepRange: 2
+  runStepRange: 5
 --- !u!4 &771022809 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4077150473209482, guid: f575356c591a52e47a3f6efa6c18f316, type: 3}
