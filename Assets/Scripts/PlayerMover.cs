@@ -101,7 +101,7 @@ public class PlayerMover : MonoBehaviour
         controller.Move(Vector3.up * ySpeed * Time.deltaTime);
     }
 
-    private void Jump()
+    public void Jump()
     {
         ySpeed = jumpSpeed;
     }
